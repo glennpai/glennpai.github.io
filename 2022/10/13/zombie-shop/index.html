@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="br {   display: block;   content: &quot; &quot;;   margin-top: 2em; } .title-box {    display: flex;   align-items: center; } .image-container {   width: 12em;   min-width: 12em;   padding-right: 2em; } .intro">
+<meta property="og:type" content="article">
+<meta property="og:title" content="zombie shop">
+<meta property="og:url" content="https://glennpai.github.io/2022/10/13/zombie-shop/index.html">
+<meta property="og:site_name" content="Christopher Glenn">
+<meta property="og:description" content="br {   display: block;   content: &quot; &quot;;   margin-top: 2em; } .title-box {    display: flex;   align-items: center; } .image-container {   width: 12em;   min-width: 12em;   padding-right: 2em; } .intro">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://glennpai.github.io/2022/10/13/zombie-shop/zombie-shop.jpg">
+<meta property="article:published_time" content="2022-10-13T16:04:47.000Z">
+<meta property="article:modified_time" content="2022-10-13T16:04:47.000Z">
+<meta property="article:author" content="Christopher Glenn">
+<meta property="article:tag" content="mobile">
+<meta property="article:tag" content="zombie">
+<meta property="article:tag" content="shopkeep">
+<meta property="article:tag" content="incremental">
+<meta property="article:tag" content="upgrade">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://glennpai.github.io/2022/10/13/zombie-shop/zombie-shop.jpg">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/chi-half.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/chi-half.png">
+        
+      
+    
+    <!-- title -->
+    <title>zombie shop</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Blog</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://github.com/glennpai">Projects</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2022/10/12/welcome/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://glennpai.github.io/2022/10/13/zombie-shop/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://glennpai.github.io/2022/10/13/zombie-shop/&text=zombie shop"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://glennpai.github.io/2022/10/13/zombie-shop/&is_video=false&description=zombie shop"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=zombie shop&body=Check out this article: https://glennpai.github.io/2022/10/13/zombie-shop/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://glennpai.github.io/2022/10/13/zombie-shop/&name=zombie shop&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://glennpai.github.io/2022/10/13/zombie-shop/&t=zombie shop"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        zombie shop
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Christopher Glenn</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-10-13T16:04:47.000Z" itemprop="datePublished">Oct 13, 2022</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/gaming/">gaming</a> › <a class="category-link" href="/categories/gaming/review/">review</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/incremental/" rel="tag">incremental</a>, <a class="tag-link-link" href="/tags/mobile/" rel="tag">mobile</a>, <a class="tag-link-link" href="/tags/shopkeep/" rel="tag">shopkeep</a>, <a class="tag-link-link" href="/tags/upgrade/" rel="tag">upgrade</a>, <a class="tag-link-link" href="/tags/zombie/" rel="tag">zombie</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <style>
+br {
+  display: block;
+  content: " ";
+  margin-top: 2em;
+}
+.title-box { 
+  display: flex;
+  align-items: center;
+}
+.image-container {
+  width: 12em;
+  min-width: 12em;
+  padding-right: 2em;
+}
+.intro-flair {
+  color: #d1ca02;
+  font-size: 2em;
+}
+.title-container {
+  width: fit-content;
+}
+.review-container {
+  line-height: 1.5em;
+}
+.emphasis-flair {
+  color: #d1ca02;
+  font-weight: bold;
+}
+.title-container #title {
+  color: #d1ca02;
+  font-size: 4em;
+  font-weight: bold;
+  line-height: .8em;
+  text-transform: uppercase;
+  margin-top: .2em;
+}
+.title-container #subtitle {
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.title-container #rating {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2em;
+  text-transform: uppercase;
+}
+#rating-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #d1ca02;
+}
+</style>
+<div class="title-box">
+    <div class="image-container">
+        <!-- add image to folder named after game -->
+        <img src="/2022/10/13/zombie-shop/zombie-shop.jpg" class="">
+    </div>
+    <div class="title-container">
+        <div id="title">zombie shop</div>
+        <div id="subtitle">mobile incremental zombie shopkeep... simulator?</div>
+        <div id="rating">7/10</div>
+    </div>
+</div>
+<hr>
+<div class="review-container">
+    <span class="intro-flair">Z</span><span class="emphasis-flair">ombie shop</span> is a quaint mobile game following most of the traits found commonly within the genre. Despite what you might assume from the name, <span class="emphasis-flair">zombie shop</span> focuses far more on the <strong>shop</strong> mechanics than <strong>zombies</strong>. If you've ever played a "shopkeep" style game, you will be familiar with the gameplay loop. You have some incoming source of resources or products, you interact with the shop or customers directly to sell said resources, and you use the profits to upgrade the shop; rinse and repeat. This game is no exception.
+  </br>
+  <span class="emphasis-flair">Zombie shop</span> is centered around the idea of incrementally upgrading not only your shop, but also your surrounding town (which provides you with raw materials), your survivors (serving as scavengers), and the items you're producing. As you play the game you unlock new upgrades which ultimately allow you to make more money and / or resources. 
+  </br>
+  The graphics are traditional simple-poly design but are host to vivid colors and cute animations. The shop always feels alive in its own way, bustling with increasing waves of customers as you unlock new furniture and upgrades. Though somewhat limited in dialog, you are able to interact with each customer, providing them with discounts or even bargaining your way to earn some extra cash. Quests are plentiful, always appropriately scaled and feel rewarding to complete. 
+  </br>
+  One thing <span class="emphasis-flair">zombie shop</span> does particularly well despite being an incremental game-- almost an idle game in some regard-- is always having <em>something</em> for the player to do. Whether the <em>something</em> is browse your item catalog for your next round of production, send survivors on a hunt for resources, or play some minigame to pass some time, there always seems to be <em>something</em>. I've easily put dozens of hours into this game and I have yet to reach a point where I felt like I needed to wait until I was able to continue playing the game. 
+  </br>
+  Looking at the negatives, this game seems to have been stricken by a plague of interal microtransaction advertisements. There have been <strong>several</strong> instances where I would actively be playing when suddenly the screen is captured by some <strong>"NEW DEAL! ONLY $24.99!"</strong> or similar popup. I understand developers rely on microtransactions to make money on free apps but this game could really use some finesse with its timing and delivery. 
+  </br>
+  The minigames in <span class="emphasis-flair">zombie shop</span>, including the  arcade machine and "tower defense" games (if you can call it tower defense), feel like a bit of an afterthought. Some of these minigames are high risk / low reward where completing them may reward you with some resource or production boost but failing them may even penalize you for several hours. <em>...Yes, I'm still upset about that one.</em> The minigames also seem to be the only place you ever interact with zombies at all. Without playing the minigames, you could mistake the core gameplay for a non-zombie themed game at all.
+  </br>
+  Despite this, I still find <span class="emphasis-flair">zombie shop</span> to be quite charming and tend to lose track of time while I'm playing. Even if you're a stranger to the genre, it's definitely worth checking out. Available on both the Apple App Store and Google Play. 
+  </br>
+  <span id="rating-text">A solid 7/10 overall.</span>
+</div>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Blog</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/glennpai">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://glennpai.github.io/2022/10/13/zombie-shop/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://glennpai.github.io/2022/10/13/zombie-shop/&text=zombie shop"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://glennpai.github.io/2022/10/13/zombie-shop/&is_video=false&description=zombie shop"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=zombie shop&body=Check out this article: https://glennpai.github.io/2022/10/13/zombie-shop/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://glennpai.github.io/2022/10/13/zombie-shop/&title=zombie shop"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://glennpai.github.io/2022/10/13/zombie-shop/&name=zombie shop&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://glennpai.github.io/2022/10/13/zombie-shop/&t=zombie shop"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2022
+    Christopher Glenn
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Blog</a></li><!--
+     --><!--
+       --><li><a target="_blank" rel="noopener" href="https://github.com/glennpai">Projects</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
