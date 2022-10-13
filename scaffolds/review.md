@@ -9,6 +9,11 @@ categories:
 tags: 
 ---
 <style>
+br {
+  display: block;
+  content: " ";
+  margin-top: 2em;
+}
 .title-box { 
   display: flex;
   align-items: center;
@@ -18,11 +23,21 @@ tags:
   min-width: 12em;
   padding-right: 2em;
 }
-.text-flair {
+.intro-flair {
   color: #d1ca02;
   font-size: 2em;
 }
-#title {
+.title-container {
+  width: fit-content;
+}
+.review-container {
+  line-height: 1.5em;
+}
+.emphasis-flair {
+  color: #d1ca02;
+  font-weight: bold;
+}
+.title-container #title {
   color: #d1ca02;
   font-size: 4em;
   font-weight: bold;
@@ -30,16 +45,21 @@ tags:
   text-transform: uppercase;
   margin-top: .2em;
 }
-#subtitle {
+.title-container #subtitle {
   font-size: 2em;
   line-height: 1em;
   text-transform: uppercase;
 }
-#rating {
+.title-container #rating {
   font-size: 2em;
   font-weight: bold;
   line-height: 2em;
   text-transform: uppercase;
+}
+#rating-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #d1ca02;
 }
 </style>
 <div class="title-box">
@@ -47,13 +67,14 @@ tags:
 		<!-- add image to folder named after game -->
 		{% asset_img REPLACEME.jpg %}
 	</div>
-	<div class="text-container">
+	<div class="title-container">
 		<div id="title">{{ title }}</div>
 		<div id="subtitle">{{ subtitle }}</div>
 		<div id="rating">{{ rating }}</div>
 	</div>
 </div>
 <hr>
-<div class="text-container">
-	<span class="text-flair"></span>
+<div class="review-container">
+	<span class="intro-flair"></span><span class="emphasis-flair"></span>
+  </br>
 </div>
