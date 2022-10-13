@@ -1,0 +1,3 @@
+[submodule "themes/cactus-glennpai"] 
+	path = themes/cactus-glennpai
+	url = https://github.com/glennpai/hexo-theme-cactus
