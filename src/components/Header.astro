@@ -1,0 +1,64 @@
+---
+import { Image } from 'astro:assets';
+import Navigation from './Navigation.astro';
+import chi from '../assets/chi.png';
+---
+
+<header>
+    <div class="header-container">
+        <a href="/">
+            <Image src={chi} id="logo" alt="Chihuahua logo" loading="eager" />
+        </a>
+        <div class="nav-container">
+            <h2 id="title">Christopher Glenn</h2>
+            <Navigation class="text-primary"/>
+        </div>
+    </div>
+</header>
+
+<style>
+    h2 {
+        font-size: 2.125rem;
+        letter-spacing: 0.24px;
+        line-height: 2.25rem;
+        padding-bottom: 5px;
+    }
+
+    header {
+        display: flex;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .nav-container {
+        margin-left: 20px;
+    }
+
+    .text-primary {
+        color: var(--primary-color);
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+
+    #title {
+        margin-top: 0;
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    #logo {
+        width: 50px;
+        height: 50px;
+        float: left;
+        filter: grayscale()
+    }
+
+    #logo:hover {
+        filter: grayscale(0);
+    }
+</style>

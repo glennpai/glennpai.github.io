@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Icon } from 'astro-icon/components';
+---
+
+<Layout>
+    <p>
+        Catch me on
+        <a href="https://github.com/glennpai" target="_blank" rel="noopener noreferrer">
+            <Icon name="github" aria-label="github icon" /> GitHub
+        </a>,
+        <a href="https://www.linkedin.com/in/christopher-glenn-503031152/" target="_blank" rel="noopener noreferrer">
+            <Icon name="linkedin" aria-label="linkedin icon" /> LinkedIn
+        </a>, and
+        <a href="https://bsky.app/profile/glennpai.dev" target="_blank" rel="noopener noreferrer">
+            <Icon name="bsky" aria-label="bluesky icon" /> Bluesky
+        </a>.
+    </p>
+</Layout>
+
+<style>
+	a {
+		color: var(--primary-color);
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	.icon {
+		vertical-align: middle;
+		margin-right: 0.25em;
+	}
+</style>

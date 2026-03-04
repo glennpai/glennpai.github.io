@@ -1,0 +1,43 @@
+---
+const { class: classname, ...rest } = Astro.props;
+---
+
+<nav class={classname} {...rest}>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+<style>
+    nav {
+        display: flex;
+        gap: 5px;
+        flex-direction: row;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        line-height: 0.725rem;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li:not(:last-child) {
+        border-right: 1px solid var(--secondary-color);
+        padding-right: 15px;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    nav li a:hover {
+        text-decoration: underline;
+    }
+</style>
