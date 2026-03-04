@@ -1,0 +1,32 @@
+---
+import Navigation from './Navigation.astro';
+---
+
+<footer>
+    <div class="footer-left">
+        <p>Copyright &copy; {new Date().getFullYear()} Christopher Glenn</p>
+    </div>
+    <div class="footer-right">
+        <Navigation class="text-secondary"/>
+    </div>
+</footer>
+
+<style>
+    footer {
+        display: flex;
+        justify-content: space-between;
+        color: var(--secondary-color);
+    }
+
+    .text-secondary {
+        color: var(--secondary-color);
+    }
+
+    .footer-left,
+    .footer-right {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+</style>
