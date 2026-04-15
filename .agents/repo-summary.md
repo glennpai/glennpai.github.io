@@ -1,6 +1,6 @@
 # glennpai.github.io
 
-Personal portfolio site for Christopher Glenn, deployed at https://glennpai.github.io.
+Personal portfolio site for Christopher Glenn, deployed at [glennpai.github.io](https://glennpai.github.io).
 
 ## Stack
 - Astro 5, TypeScript, astro-icon
