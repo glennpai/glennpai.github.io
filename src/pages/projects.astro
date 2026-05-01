@@ -1,7 +1,378 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<p>Coming soon...</p>
+	<h3 id="projects-heading">Projects</h3>
+	<p>
+		A list of personal projects that I've worked on, categorized by type.
+		This is not an exhaustive list of all my work, but rather a selection of
+		projects that I find interesting or representative of my skills and
+		interests.
+	</p>
+
+	<h4>Web Applications</h4>
+	<p>
+		Having spent the majority of my professional career in web development, I
+		have worked on a variety of web applications, both personal and
+		professional. Below are some of the personal projects that I've
+		developed, showcasing my skills in front-end development, design, and
+		user experience.
+	</p>
+	<ul aria-label="Web application projects">
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/hideout-helper">
+						Hideout Helper
+					</a>
+				</h5>
+				<p>
+					This project is a web application providing a simple utility
+					for managing hideout resources in the game Escape from
+					Tarkov. Using Angular for the frontend and browser local
+					storage for data persistence, it allows users to track their
+					hideout progress and plan resource allocation effectively.
+					The project was originally developed as a personal tool to
+					enhance my gaming experience, but it later evolved into a
+					more comprehensive application used by several friends.
+				</p>
+				<p>
+					While the project was recently updated to Angular 21, it was
+					originally built with Angular 14. The application features a
+					responsive design, making it accessible on both desktop and
+					mobile devices. This project taught me valuable lessons in
+					front-end development, state management, and UX design, as
+					well as the importance of iterative development and user
+					feedback in creating a useful tool.
+				</p>
+			</article>
+		</li>
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/gradient-tool">
+						Gradient Tool
+					</a>
+				</h5>
+				<p>
+					This project is a simple web application that allows users
+					to create randomly generated color gradients. It serves as a
+					fun and creative tool for exploring color combinations and
+					experimenting with design ideas. Users are able to provide a
+					base color and the tool generates several color gradients
+					based on that color. The application provides the hex codes
+					for the generated gradients, making it easy for users to
+					incorporate them into their own design projects.
+				</p>
+				<p>
+					Built with Angular 12, this project was one of my early
+					attempts at creating a web application. It was a great
+					learning experience that helped me understand the basics of
+					Angular, including components, services, and data binding.
+					The project also allowed me to experiment with CSS and
+					design principles, as I aimed to create an intuitive and
+					visually appealing user interface. Overall, the Gradient
+					Tool is a testament to my early exploration of web
+					development and my passion for design and creativity.
+				</p>
+			</article>
+		</li>
+	</ul>
+
+	<h4>Homelab</h4>
+	<p>
+		In addition to web development, I have a strong interest in homelab
+		projects, which allow me to explore various technologies and tools in a
+		hands-on manner. These projects often involve setting up and managing
+		devices (both physical and virtual), networking equipment, and other
+		tools to create a personal computing environment for learning and
+		experimentation. This section includes projects related to homelab
+		setups, configurations, and utilities that I've developed or used in my
+		homelab environment. These projects demonstrate my interest in
+		infrastructure, automation, and system administration.
+	</p>
+	<ul aria-label="Homelab projects">
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/k8s-workload-template">
+						K8s Workload Template
+					</a>
+				</h5>
+				<p>
+					This project is a Kubernetes workload template that serves
+					as a starting point for deploying workloads in my Kubernetes
+					cluster. Using Kustomize and Skaffold, it simplifies the
+					process of configuring manifests. The template is designed
+					to be flexible and can be easily customized to fit different
+					project requirements.
+				</p>
+				<p>
+					This project was created as part of my exploration of
+					Kubernetes and container orchestration, and it has been a
+					valuable resource for learning and experimentation in my
+					homelab environment. In the future, I plan to explore
+					technologies like Helm to replace Kustomize and further
+					enhance the functionality of this template.
+				</p>
+			</article>
+		</li>
+	</ul>
+
+	<h4>Game Development</h4>
+	<p>
+		While I have not developed any full-fledged games, I have dabbled in
+		video game development and created some small projects related to game
+		design and development. These projects are more experimental in nature
+		and serve as a way for me to explore concepts related to game mechanics,
+		procedural generation, and tool development for game development. They
+		are not polished or complete games, but rather prototypes and
+		experiments that reflect my interest in game development and my
+		willingness to explore new areas of technology.
+	</p>
+	<ul aria-label="Game development projects">
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/item-generator">
+						Item Generator
+					</a>
+				</h5>
+				<p>
+					This project is a proof-of-concept for a simple item
+					generator that could be used in game development. It was a
+					rough prototype tool built with Python to quickly generate
+					items with various attributes and properties. The goal was
+					to create a flexible and extensible system that could be
+					easily integrated into a game or used for testing and
+					experimentation.
+				</p>
+				<p>
+					While the project is not a fully developed game and the code
+					leaves much to be desired, it serves as an artifact of my
+					exploration in game development and my ability to create
+					tools that can be used in the game development process. It
+					also provided an opportunity for me to explore concepts
+					related to procedural generation and data management in
+					games.
+				</p>
+			</article>
+		</li>
+	</ul>
+
+	<h4>Tools and Extensions</h4>
+	<p>
+		This section includes projects related to tools and extensions that I've
+		developed or used. These projects demonstrate my interest in enhancing
+		functionality, improving workflows, and creating utilities that can be
+		used in various contexts. They range from browser extensions to
+		command-line tools, and they reflect my willingness to explore different
+		technologies and create solutions that can be used by myself and others.
+	</p>
+	<ul aria-label="Tools and extensions projects">
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/ghes-deuteranopia">
+						GHES Deuteranopia Theme
+					</a>
+				</h5>
+				<p>
+					This project is a custom theme for GitHub Enterprise Server
+					(GHES) designed to improve accessibility for users with
+					deuteranopia, a type of red-green color blindness. The theme
+					modifies the default color scheme of GHES to enhance
+					contrast and make it easier for users with deuteranopia to
+					navigate and use the platform effectively. This project was
+					created as a personal initiative to address accessibility
+					challenges and provide a more inclusive experience for users
+					with color vision deficiencies.
+				</p>
+				<p>
+					While the project is not a widely used tool and is more of a
+					personal experiment, it reflects my interest in
+					accessibility and my willingness to create solutions that
+					can improve user experience for individuals with specific
+					needs. It also provided an opportunity for me to explore
+					development tools such as Copilot CLI and to learn about the
+					challenges and considerations involved in designing for
+					accessibility. Overall, the GHES Deuteranopia Theme serves
+					as an example of my commitment to accessibility and my
+					ability to create tools that can enhance user experience in
+					specific contexts.
+				</p>
+			</article>
+		</li>
+		<li>
+			<article>
+				<h5>
+					<a
+						href="https://github.com/glennpai/simple-graph-etl-python"
+					>
+						Simple Graph ETL (Python)
+					</a>
+				</h5>
+				<p>
+					This project is a Python ETL (Extract, Transform, Load)
+					library designed for working with the Microsoft Graph API.
+					Built with Python, it provides a simple and flexible
+					interface for interacting with the Graph API, allowing users
+					to easily extract data, perform transformations, and load it
+					into various systems.
+				</p>
+				<p>
+					The project was originally created as a personal tool for
+					working with the Graph API, but it has since evolved into a
+					more comprehensive library owned and maintained by Ohio
+					University's Office of Information Technology (OIT). The
+					original repository still exists as a personal project, but
+					the library is now primarily developed and maintained in the
+					OIT repository. This project reflects my interest in data
+					integration and my ability to create tools that can be used
+					in real-world enterprise applications. It also provided an
+					opportunity for me to explore the Graph API and to learn
+					about the challenges and considerations involved in working
+					with APIs and data integration.
+				</p>
+			</article>
+		</li>
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/prntsc-extension">
+						Prntsc Extension
+					</a>
+				</h5>
+				<p>
+					This project is a Chrome extension that provides a simple
+					utility for loading a random image from prnt.sc, a popular
+					image hosting service. The extension is designed to be a fun
+					and lighthearted tool for users who want to quickly view
+					random images from the platform.
+				</p>
+				<p>
+					Built with JavaScript and the Chrome Extensions API, this
+					project was a quick experiment that allowed me to explore
+					browser extension development. Originally a tool for my
+					academic research, it later evolved into a browser extension
+					for entertainment purposes. This project was a great
+					learning experience that helped me understand the basics of
+					browser extension development, including manifest files,
+					content scripts, and background scripts. It also provided an
+					opportunity for me to experiment with JavaScript and to
+					create a simple tool that can be used for fun and
+					entertainment.
+				</p>
+			</article>
+		</li>
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/aruix"> Aruix </a>
+				</h5>
+				<p>
+					This project is a Discord bot built with Discord.js that
+					provides a variety of fun and useful commands for users. The
+					bot includes features such as a coin flip command, a dice
+					roll command, and various administrative commands for
+					managing a Discord server. It was created as a personal
+					project to learn about Discord bot development and to create
+					a tool that could be used in my own Discord server and by
+					friends.
+				</p>
+				<p>
+					While the project is not a widely used bot and is more of a
+					personal experiment, it reflects my interest in creating
+					tools for online communities and my ability to develop
+					applications that can be used in social contexts. It also
+					provided an opportunity for me to explore the Discord API
+					and to learn about the challenges and considerations
+					involved in modular, extensible bot development. Overall,
+					Aruix serves as an example of my ability to create fun and
+					useful tools for online communities and my willingness to
+					explore new technologies and platforms.
+				</p>
+			</article>
+		</li>
+	</ul>
+
+	<h4>Cron Jobs</h4>
+	<p>
+		This section includes projects related to cron jobs, or scheduled tasks
+		that run automatically at specified intervals. These projects
+		demonstrate my interest in automation and my ability to create scripts
+		and tools that can be used to manage and automate various tasks.
+	</p>
+	<ul aria-label="Cron job projects">
+		<li>
+			<article>
+				<h5>
+					<a
+						href="https://github.com/glennpai/pihole-gravity-cronjob"
+					>
+						Pi-hole Gravity Cron Job
+					</a>
+				</h5>
+				<p>
+					This project is a cron job script designed to automate the
+					update of Pi-hole's gravity list, which is used for blocking
+					ads and tracking domains. The script is intended to be run
+					on a regular schedule (e.g., daily) to ensure that the
+					gravity list is kept up-to-date with the latest blocklists
+					and domain information. It was created as a personal project
+					to enhance my homelab setup and to learn about automation
+					and scripting.
+				</p>
+				<p>
+					While the project is not a widely used tool and is more of a
+					personal experiment, it reflects my interest in automation
+					and my ability to create scripts that can be used to manage
+					and automate tasks in a homelab environment. It also
+					provided an opportunity for me to explore shell scripting
+					and to learn about the challenges and considerations
+					involved in creating reliable and efficient cron jobs.
+					Overall, the Pi-hole Gravity Cron Job serves as an example of
+					my ability to create tools that can enhance the
+					functionality of my homelab setup and my willingness to
+					explore new technologies and solutions for automation.
+				</p>
+			</article>
+		</li>
+		<li>
+			<article>
+				<h5>
+					<a href="https://github.com/glennpai/humble-bundle-scraper">
+						Humble Bundle Scraper
+					</a>
+				</h5>
+				<p>
+					This project is a tool designed to scrape the Humble Bundle
+					website for information about current bundles. Using Python
+					and Beautiful Soup, the scraper extracts data such as bundle
+					names, descriptions, and pricing information. The scraper is
+					intended to be run on a regular schedule (e.g., daily) to
+					keep track of new bundles and to provide users with
+					notifications about available deals.
+				</p>
+				<p>
+					Although this project has not been fully implemented as a
+					cron job, it provided a valuable opportunity for me to
+					explore web scraping and data extraction techniques. It
+					reflects my interest in data extraction and automation, as
+					well as my ability to create scripts that can be used for
+					personal use and experimentation. In the future, I plan to
+					convert this scraper into a cron job that can run
+					automatically and provide notifications about new bundles on
+					a regular basis.
+				</p>
+			</article>
+		</li>
+	</ul>
 </Layout>
+
+<style>
+	a {
+		color: var(--primary-color);
+	}
+</style>
